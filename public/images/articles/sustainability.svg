@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2E7D32"/>
+      <stop offset="100%" stop-color="#66BB6A"/>
+    </linearGradient>
+    <pattern id="dots" width="34" height="34" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="2" fill="rgba(255,255,255,0.14)"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="750" fill="url(#g)"/>
+  <rect width="1200" height="750" fill="url(#dots)"/>
+  <circle cx="1000" cy="140" r="220" fill="rgba(255,255,255,0.08)"/>
+  <circle cx="120" cy="650" r="160" fill="rgba(255,255,255,0.08)"/>
+  <text x="70" y="640" font-family="Arial, sans-serif" font-size="46" font-weight="700" fill="#ffffff" opacity="0.95">Home Sustainability</text>
+  <text x="70" y="685" font-family="Arial, sans-serif" font-size="22" fill="#E9F5EA">Green Vision Pro Australia</text>
+</svg>

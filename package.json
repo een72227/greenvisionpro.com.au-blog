@@ -1,0 +1,43 @@
+{
+  "name": "greenvisionpro-blog",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Green Vision Pro Australia — energy efficiency & Victorian Energy Upgrades blog",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "next": "15.0.3",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "framer-motion": "^11.11.9",
+    "lucide-react": "^0.454.0",
+    "gray-matter": "^4.0.3",
+    "next-mdx-remote": "^5.0.0",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.5.4",
+    "reading-time": "^1.5.0",
+    "class-variance-authority": "^0.7.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "@types/node": "^22.8.1",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "tailwindcss": "^3.4.14",
+    "postcss": "^8.4.47",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "15.0.3",
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.8",
+    "@tailwindcss/typography": "^0.5.15"
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  }
+}
