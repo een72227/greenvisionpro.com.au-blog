@@ -1,8 +1,8 @@
 "use client";
 
 import { useState, FormEvent } from "react";
+import Link from "next/link";
 import { CheckCircle2, Send } from "lucide-react";
-
 export default function ContactForm() {
   const [submitted, setSubmitted] = useState(false);
 
@@ -108,9 +108,9 @@ export default function ContactForm() {
       </button>
       <p className="text-xs text-ink-soft">
         By submitting, you agree to be contacted about your enquiry. See our{" "}
-        <a href="/privacy-policy" className="underline">
+       <Link href="/privacy-policy" className="underline">
           Privacy Policy
-        </a>
+        </Link>
         .
       </p>
     </form>
