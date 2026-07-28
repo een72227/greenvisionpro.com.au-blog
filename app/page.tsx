@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { notFound } from "next/navigation";
 import { ArrowRight, ShieldCheck, Sparkles, Users } from "lucide-react";
 import Hero from "@/components/Hero";
 import ArticleCard from "@/components/ArticleCard";
@@ -131,7 +132,6 @@ export default function HomePage() {
           </Link>
         </div>
       </section>
-
       <Newsletter />
     </>
   );
